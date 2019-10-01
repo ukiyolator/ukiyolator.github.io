@@ -1,0 +1,355 @@
+/* 共通CSS */
+body {
+  /*
+  font-family: 'Noto Serif JP', serif;
+  */
+  font-family: 'Sawarabi Mincho', sans-serif;
+  background-color: rgb(241, 238, 216)
+}
+
+.footer > ul {
+  list-style: none;
+}
+
+.footer > ul > li {
+  display:  inline-block;
+}
+
+.heading {
+  font-weight: bold;
+}
+
+/* PC版CSS */
+@media screen and ( min-width:480px ) {
+
+  body {
+    font-size: 16px;
+  }
+
+  h1 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 80px;
+    text-align: center;
+    padding-bottom: 50px;
+  }
+
+  p {
+    margin-left: 6%;
+    margin-right: 6%;
+  }
+
+  .heading {
+    padding-top: 80px;
+    padding-bottom: 15px;
+  }
+
+  .picture {
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 100px;
+  }
+
+  .picture > figure {
+    display: inline-block;
+    width: 20%;
+    margin: 0;
+  }
+
+  .person {
+    padding-right: 3%;
+  }
+
+  .ukiyoe {
+    padding-left: 3%
+  }
+
+  #person {
+    width: 100%;
+    margin-left: auto;
+  }
+
+  #ukiyoe {
+    width: 100%;
+    margin-right: auto;
+  }
+
+  div.engine_pic {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 0px;
+    width: 100%;
+    height: auto;
+    padding-bottom: 50px;
+    margin-top: 10px;
+  }
+
+  div.engine_visee {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 0px;
+    width: 100%;
+    height: auto;
+  }
+
+  #pic {
+    width: 10%;
+    height: auto;
+    float: left;
+    padding-left: 6%;
+  }
+
+  #visee {
+    width: 10%;
+    height: auto;
+    float: left;
+    padding-left: 6%;
+    padding-bottom: 80px;
+  }
+
+  .explanation_engine {
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-left: 16%;
+  }
+
+  #hokudai-logo {
+    width: 200px;
+    height: auto;
+  }
+
+  #c-logo {
+    width: 250px;
+    height: auto;
+  }
+
+  .mjmj {
+    padding-bottom: 80px;
+  }
+
+  .mjmj > a.mobile {
+    display: none;
+  }
+
+  .mjmj > a {
+    padding-left: 6%;
+  }
+
+  .mjmj > figure {
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 50%;
+    width: 40%;
+  }
+
+  .mjmj > figure > a > img {
+    width: 100%;
+    height: auto;
+  }
+
+  .footer {
+    padding-bottom: 100px;
+  }
+
+  .footer > ul {
+    padding-left: 8%;
+  }
+
+  .footer > ul > li {
+    display: block;
+  }
+
+  .footer > ul > li > a {
+    vertical-align: top;
+    font-size: 18px;
+  }
+
+  .logos {
+    margin: 0;
+    padding-left: 7%;
+  }
+
+  .logos > figure {
+    display: inline-block;
+    margin: 0;
+  }
+
+  #tel-icon {
+    width: 30px;
+    height: auto;
+    padding-right: 5px;
+    margin-bottom: 5px;
+  }
+
+  #f-icon {
+    width: 30px;
+    height: auto;
+    padding-right: 5px;
+  }
+
+  .mobile-icon {
+    display: none;
+  }
+
+}
+
+/* モバイル版CSS */
+@media screen and ( max-width:479px ) {
+
+  body {
+    font-size: 10px;
+  }
+
+  h1 {
+    margin-top: 13.500px;
+    margin-bottom: 0;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
+    text-align: center;
+  }
+
+  p {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  .heading {
+    padding-top: 80px;
+  }
+
+  figure.person {
+    width: 70%;
+    margin-left: 0;
+    margin-right: 30%;
+  }
+
+  figure.ukiyoe {
+    width: 70%;
+    margin-left: 30%;
+    margin-right: 0;
+  }
+
+  #person {
+    width: 100%;
+    height: auto;
+  }
+
+  #ukiyoe {
+    width: 100%;
+    height: auto;
+  }
+
+  div.engine_pic {
+    display: inline-block;
+    vertical-align:top;
+    margin-left: 3%;
+    width: 100%;
+    height: auto;
+    padding-bottom: 30px;
+  }
+
+  div.engine_visee {
+    display: inline-block;
+    vertical-align:top;
+    margin-left: 3%;
+    width: 100%;
+    height: auto;
+  }
+
+  #pic {
+    width: 30%;
+    height: auto;
+    float: left;
+  }
+
+  #visee {
+    width: 30%;
+    height: auto;
+    float: left;
+  }
+
+  .explanation_engine {
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-left: 28%;
+  }
+
+  .mjmj > a.PC {
+    display: none;
+  }
+
+  .mjmj > a {
+    padding-left: 6%;
+  }
+
+  .mjmj > figure {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .mjmj > figure > a > img {
+    width: 100%;
+    height: auto;
+  }
+
+  .logos {
+    text-align: center;
+    padding-right: 10px;
+    padding-bottom: 30px;
+  }
+
+  .logos > figure {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    width: 45%;
+  }
+
+  #hokudai-logo {
+    width: 100%;
+    height: auto;
+  }
+
+  #c-logo {
+    width: 100%;
+    height: auto;
+  }
+
+  .footer {
+    padding-bottom: 50px;
+  }
+
+  .footer > ul {
+    display: none;
+  }
+
+  .mobile-icon {
+    width: 100%;
+    padding: 0;
+  }
+
+  .mobile-icon > a.mobile-tel {
+    width: 12%;
+    margin: 0;
+    padding-left:24%;
+    padding-right:13%;
+  }
+
+  .mobile-icon > a.mobile-fb {
+    width: 12%;
+    margin: 0;
+    padding-left:13%;
+    padding-right:23%;
+  }
+
+  #mobile-tel-icon {
+    width: 12%;
+    height: auto;
+  }
+
+  #mobile-f-icon  {
+    width: 12%;
+    height: auto;
+  }
+
+}
