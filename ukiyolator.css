@@ -130,7 +130,7 @@ body {
 
   #pic {
 		display: inline-block;
-		opacity: 0.5;
+		opacity: 0.4;
     width: 20%;
     height: auto;
     float: left;
@@ -149,7 +149,7 @@ body {
 
 	#visee {
 		display: inline-block;
-		opacity: 0.5;
+		opacity: 0.4;
 		width: 20%;
 		height: auto;
 		float: right;
@@ -302,6 +302,10 @@ body {
     display: none;
   }
 
+	figure.engine_visee > img#visee.mb {
+		display: none;
+	}
+
 }
 
 /* モバイル版CSS */
@@ -313,21 +317,29 @@ body {
 
   h1 {
     margin-top: 0px;
-    margin-bottom: 0;
+    margin-bottom: 50px;
     /*font-family: 'Permanent Marker', cursive;*/
     font-family: MyFont;
     font-size: 100px;
     text-align: center;
   }
 
+	h2 {
+		text-align: center;
+		font-family: Arial, sans-serif;
+		font-weight: 500;
+		font-size: 20px;
+		-webkit-font-smoothing: antialiased;
+	}
+
   p {
     margin-right: 20px;
     margin-left: 20px;
   }
 
-  .heading {
-    padding-top: 80px;
-  }
+  .picture {
+		padding-bottom: 50px;
+	}
 
   figure.person {
     width: 100%;
@@ -349,44 +361,63 @@ body {
     height: auto;
   }
 
-  div.engine_pic {
+  .engine_pic {
     display: inline-block;
     vertical-align:top;
     margin-left: 3%;
     width: 100%;
     height: auto;
-    padding-bottom: 30px;
+    padding-bottom: 0;
   }
 
-  div.engine_visee {
+  .engine_visee {
     display: inline-block;
     vertical-align:top;
     margin-left: 3%;
     width: 100%;
     height: auto;
+		padding-bottom: 40px;
   }
 
   #pic {
-    width: 30%;
+    width: 20%;
     height: auto;
     float: left;
   }
 
   #visee {
-    width: 30%;
+    width: 20%;
     height: auto;
     float: left;
   }
 
-  .explanation_engine {
-    margin-right: 20px;
-    margin-left: 20px;
-    padding-left: 28%;
+	.explanation_pic {
+    padding-right: 10%;
+    padding-left: 10%;
+		width: 80%;
   }
+
+	.explanation_pic > h2 {
+		padding-bottom: 18px;
+	}
+
+	.explanation_visee {
+    padding-right: 10%;
+    padding-left: 10%;
+		width: 80%;
+  }
+
+	.explanation_visee > h2 {
+		padding-bottom: 18px;
+	}
 
   .mjmj > a.PC {
     display: none;
   }
+
+	.mjmj {
+		padding-bottom: 30px;
+	}
 
   .mjmj > a {
     padding-left: 6%;
@@ -411,7 +442,6 @@ body {
   .logos {
     text-align: center;
     padding-right: 10px;
-    padding-bottom: 10px;
   }
 
   .logos > figure {
@@ -420,6 +450,10 @@ body {
     margin: 0;
     width: 45%;
   }
+
+	.hokudai-logo > img {
+		vertical-align: bottom;
+	}
 
   #hokudai-logo {
     width: 100%;
